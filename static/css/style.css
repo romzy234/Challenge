@@ -18,7 +18,12 @@
 }
 
 .flex-blackjack-row-1, .flex-blackjack-row-2{
-    background: url("/Challenge/static/img/blackjack-table.jpg");
+/*     This May have worked on your system but its isnt the best way to handle file path thats why its broke 
+    Read more on file path
+    */
+    
+/*     background: url("/Challenge/static/img/blackjack-table.jpg"); */
+    background: url("../img/blackjack-table.jpg");
     color: white;
 }
 
