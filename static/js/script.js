@@ -103,7 +103,11 @@ function rpsFrontEnd(humanImageChoice, botImageChoice, finalMessage){
 
 
 // Challenge 4: Change the Color of All Buttons!
+// This Changes the color of every Button in the html 
 var all_buttons = document.getElementsByTagName('button');
+
+// Go TO Html And find the classes
+// var selectedButtons = document.getElementsByClass('button');
 // console.log(all_buttons);
 
 
